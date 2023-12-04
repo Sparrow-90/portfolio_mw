@@ -9,6 +9,9 @@ module.exports = {
       },
       fontFamily:{
         'dmsans': ['DM Sans', 'sans-serif']
+      },
+      maxWidth: {
+        'myW' : '82rem'
       }
     },
   },
