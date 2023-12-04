@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         bg: '#020916',
         accent: '#DD7EFF',
+        lightGray: '#1F2937',
       },
       fontFamily:{
         'dmsans': ['DM Sans', 'sans-serif']
