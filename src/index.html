@@ -11,7 +11,7 @@
 </head>
 <body class="bg-bg text-white">
     <main class="px-4">
-        <header class="max-w-myW mx-auto py-6">
+        <header class="max-w-myW mx-auto py-6 flex justify-between gap-4">
             <div class="flex gap-4 items-center">
                 <img class="w=10 h-10" src="./assets/star.svg" alt="">
                 <div>
@@ -19,13 +19,15 @@
                     <p class="text-white opacity-40 uppercase text-xs tracking-wider">Frontend Developer</p>
                 </div>
             </div>
-            <nav class="hidden">
-                <ul>
-                    <li><a href="#about">About Me</a></li>
+            <nav class="hidden md:block">
+                <ul class="flex gap-10 font-bold items-center">
+                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a download="#" href="#cv">Resume</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="flex gap-2 items-center">
+                        <img src="./assets/download.svg" alt="">
+                        <a download="#" href="#cv">Resume</a></li>
+                    <li><a class="bg-accent inline-block text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
