@@ -18,7 +18,8 @@ module.exports = {
         'myRound': '0.625rem'
       },
       boxShadow: {
-        'innerLight': 'inset 0 2px 0 0 rgba(255,2555,255,0.15)'
+        'innerLight': 'inset 0 2px 0 0 rgba(255,255,255,0.15)',
+        'innerLightMini': 'inset 0 1px 0 0 rgba(w55,255,255,0.15)'
       }
     },
   },
