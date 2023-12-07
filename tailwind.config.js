@@ -13,6 +13,12 @@ module.exports = {
       },
       maxWidth: {
         'myW' : '82rem'
+      },
+      borderRadius: {
+        'myRound': '0.625rem'
+      },
+      boxShadow: {
+        'innerLight': 'inset 0 2px 0 0 rgba(255,2555,255,0.15)'
       }
     },
   },
