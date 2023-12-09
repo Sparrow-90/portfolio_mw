@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bg: '#020916',
-        accent: '#DD7EFF',
+        accent: '#FA7237',
         lightGray: '#1F2937',
       },
       fontFamily:{
