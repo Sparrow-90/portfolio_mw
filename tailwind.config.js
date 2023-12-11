@@ -3,10 +3,15 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      animation: {
+        slowSpin: 'spin 15s infinite linear'
+      },
       colors: {
         bg: '#020916',
         accent: '#FA7237',
         lightGray: '#1F2937',
+        accentHover: '#fdab8b',
+        bgHover: '#262b35'
       },
       fontFamily:{
         'dmsans': ['DM Sans', 'sans-serif']
