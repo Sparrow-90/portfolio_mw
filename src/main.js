@@ -28,7 +28,7 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
             <p class="flex gap-0.5 items-center bg-gray-400/10 py-1 px-2 text-gray-400 font-medium rounded leading-none"><img src="${smallStar}" alt="">${stargazers_count}</p>
         </header>
         <p class="text-gray-400 text-xl mb-4">${description}</p>
-        <ul class="flex gap-2 mb-10">
+        <ul class="flex gap-2 mb-10 flex-wrap">
             ${tags}
         </ul>
         <div class="flex flex-col gap-4 items-start md:flex-row">
