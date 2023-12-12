@@ -11,7 +11,7 @@ module.exports = {
         accent: '#FA7237',
         lightGray: '#1F2937',
         accentHover: '#fdab8b',
-        bgHover: '#262b35'
+        bgHover: '#262b35',
       },
       fontFamily:{
         'dmsans': ['DM Sans', 'sans-serif']
