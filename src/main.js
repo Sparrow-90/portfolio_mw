@@ -6,6 +6,8 @@ const projectsContainer = document.querySelector('.projects--js');
 const username = 'Sparrow-90';
 const direction = 'desc';
 
+console.log("Hey there!🙌 If you're checking out my portfolio, that's awesome! Feel free to shoot me a message at mw.animacja@gmail.com if you want to chat. Cheers! 😎");
+
 fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
 .then(response => response.json())
 .then(response => {
