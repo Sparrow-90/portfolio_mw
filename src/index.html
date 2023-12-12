@@ -35,7 +35,12 @@
                     <li class="flex gap-2 items-center">
                         <img class="animate-bounce" src="./assets/download.svg" alt="download icon">
                         <a download="#" href="#cv">Resume</a></li>
-                    <li><a class="bg-accent  hover:bg-accentHover transition-colors duration-300 inline-block text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a></li>
+                    <li>
+                        <div class="relative group">
+                            <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-50 duration-500"></div>
+                            <a class="relative bg-accent inline-block text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -52,14 +57,20 @@
                 You might be interested in checking the list of my <a class="text-white" href="#skills">skills</a>. Don't forget to have a glimpse at my <a class="text-white"  href="#projects">projects</a>. I'm looking for a new challenges so if you have one - <a class="text-white" href="#contact">contact me </a>😊
             </p>
             <div class="flex flex-col md:flex-row items-start gap-4 flex-wrap">
-                <a class="bg-accent hover:bg-accentHover transition-colors duration-300 text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl md:py-3.5 md:px-8 box-border" href="#contact">
-                    <img src="./assets/chat.svg" alt="chat icon">
-                    Get in touch
-                </a>
-                <a class="text-accent hover:text-accentHover transition-all duration-300 flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl border-lightGray hover:border-accent border-2 md:py-3.5 md:px-8 box-border" href="#skills">
-                    <img src="./assets/user.svg" alt="user icon">
-                    Get to know me
-                </a>
+                <div class="relative group">
+                    <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-50 duration-500"></div>
+                    <a class="relative bg-accent  text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl md:py-3.5 md:px-8 box-border" href="#contact">
+                        <img src="./assets/chat.svg" alt="chat icon">
+                        Get in touch
+                    </a>
+                </div>
+                <div class="relative group">
+                    <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-20 duration-500"></div>
+                    <a class="relative text-accent group-hover:text-accentHover transition-all duration-300 flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl border-lightGray group-hover:border-accent border-2 md:py-3.5 md:px-8 box-border" href="#skills">
+                        <img src="./assets/user.svg" alt="user icon">
+                        Get to know me
+                    </a>
+                </div>
             </div>
             </div>
         </section>
@@ -164,8 +175,8 @@
             <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-center mb-4">Let's work together</h2>
             <p class="text-gray-400 text-center text-lg md:text-2xl">I'm open for new opportunities.</p> 
             <p class="text-gray-400 text-center text-lg md:text-2xl mb-10">If you have one for me we should talk!</p>
-            <a class="bg-accent  hover:bg-accentHover transition-colors duration-300 text-bg flex items-center gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 rounded-myRound-xl flex-wrap mb-10 md:mb-20" href="mailto:mw.animacja@gmail.com">
-                <img width="24" height="24" src="./assets/mail-icon.svg" alt="mail icon">mw.animacja@gmail.com</a>
+                <a class="relative bg-accent hover:bg-accentHover transition-colors duration-300 text-bg flex items-center gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 rounded-myRound-xl flex-wrap mb-10 md:mb-20" href="mailto:mw.animacja@gmail.com">
+                    <img width="24" height="24" src="./assets/mail-icon.svg" alt="mail icon">mw.animacja@gmail.com</a>
             <p class="text-gray-400 text-2xl font-medium mb-6">or find me on</p>
             <ul class="flex gap-4">
                 <li class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5 gap-1.5 shadow-innerLight">
