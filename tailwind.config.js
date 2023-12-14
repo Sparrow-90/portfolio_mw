@@ -3,8 +3,15 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      keyframes:{
+        gradient:{
+          '0%': {backgroundPosition: '0% 50%'},
+          '100%': {backgroundPosition: '100% 50%'}
+        },
+      },
       animation: {
-        slowSpin: 'spin 15s infinite linear'
+        gradient: 'gradient 6s linear infinite',
+        slowSpin: 'spin 15s infinite linear',
       },
       colors: {
         bg: '#020916',
