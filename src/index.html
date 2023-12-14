@@ -17,9 +17,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-bg text-white">
-    <main class="px-4 ">
-        <header class="max-w-myW mx-auto py-6 flex justify-between gap-4 sticky top-0 bg-gradient-to-r from-bg to-transparent backdrop-blur-md">
+<body class="bg-bg text-white relative">
+    <picture class="absolute top-0 right-0 z-20 opacity-80">
+        <img src="./assets/Ellipse.svg" alt="">
+    </picture>
+    <picture class="absolute bottom-0 right-0 z-20 opacity-80">
+        <img src="./assets/Ellipse2.png" alt="">
+    </picture>
+    <main class="px-4 relative z-30">
+        <header class="max-w-myW mx-auto py-6 flex justify-between gap-4 sticky top-0 bg-transparent backdrop-blur-md z-40">
             <div class="flex gap-4 items-center">
                 <img class="w=10 h-10 animate-slowSpin" src="./assets/star.svg" alt="">
                 <div>
@@ -38,7 +44,7 @@
                     <li>
                         <div class="relative group">
                             <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-50 duration-500"></div>
-                            <a class="relative bg-accent inline-block text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a>
+                            <a class="relative bg-gradient-to-b from-emerald-300 to-emerald-600 inline-block text-bg rounded-xl py-3.5 px-8" href="#contact">Contact</a>
                         </div>
                     </li>
                 </ul>
@@ -51,7 +57,7 @@
             </picture>
             <div class="max-w-3xl">
             <h1 class="text-2xl md:text-3xl lg:text-5xl lg:leading-snug mb-4 font-medium">
-                My name is Mateusz and I'm an aspiring <span class="text-accent">Frontend developer</span> and totaly geeking out over ancient civilizations. 
+                My name is Mateusz and I'm an aspiring <span class="text-transparent bg-gradient-to-r from-amber-400 to-red-500 bg-clip-text">Frontend developer</span> and totaly geeking out over ancient civilizations. 
             </h1>
             <p class="text-gray-400 mb-8 md:text-2xl font-medium md:mb-16">
                 You might be interested in checking the list of my <a class="text-white" href="#skills">skills</a>. Don't forget to have a glimpse at my <a class="text-white"  href="#projects">projects</a>. I'm looking for a new challenges so if you have one - <a class="text-white" href="#contact">contact me </a>😊
@@ -59,14 +65,14 @@
             <div class="flex flex-col md:flex-row items-start gap-4 flex-wrap">
                 <div class="relative group">
                     <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-50 duration-500"></div>
-                    <a class="relative bg-accent  text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl md:py-3.5 md:px-8 box-border" href="#contact">
+                    <a class="relative bg-gradient-to-b from-emerald-300 to-emerald-600  text-bg flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl md:py-3.5 md:px-8 box-border" href="#contact">
                         <img src="./assets/chat.svg" alt="chat icon">
                         Get in touch
                     </a>
                 </div>
                 <div class="relative group">
                     <div class="absolute -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-20 duration-500"></div>
-                    <a class="relative text-accent group-hover:text-accentHover transition-all duration-300 flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl border-lightGray group-hover:border-accent border-2 md:py-3.5 md:px-8 box-border" href="#skills">
+                    <a class="relative text-accent group-hover:text-white transition-all duration-300 flex gap-3 font-bold text-xl py-2 px-4 items-center rounded-myRound md:rounded-myRound-xl border-lightGray group-hover:border-accent border-2 md:py-3.5 md:px-8 box-border" href="#skills">
                         <img src="./assets/user.svg" alt="user icon">
                         Get to know me
                     </a>
@@ -171,14 +177,18 @@
             </article>
             </div>
         </section>
-        <section class="max-w-myW mx-auto flex flex-col items-center mb-16 md:mb-32" id="contact">
+        <section class="max-w-myW mx-auto flex flex-col items-center" id="contact">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-center mb-4">Let's work together</h2>
             <p class="text-gray-400 text-center text-lg md:text-2xl">I'm open for new opportunities.</p> 
             <p class="text-gray-400 text-center text-lg md:text-2xl mb-10">If you have one for me we should talk!</p>
-                <a class="relative bg-accent hover:bg-accentHover transition-colors duration-300 text-bg flex items-center gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 rounded-myRound-xl flex-wrap mb-10 md:mb-20" href="mailto:mw.animacja@gmail.com">
-                    <img width="24" height="24" src="./assets/mail-icon.svg" alt="mail icon">mw.animacja@gmail.com</a>
+                <div class="relative group">
+                    <div class="absolute  mb-10 md:mb-20 -inset-0.5 bg-accent rounded-lg blur-xl opacity-0 group-hover:opacity-50 duration-500"></div>
+                    <a class="relative bg-gradient-to-b from-emerald-300 to-emerald-600 text-bg flex items-center gap-3 font-bold text-xl leading-9 py-3.5 px-3.5 md:px-8 rounded-myRound-xl flex-wrap mb-10 md:mb-20" href="mailto:mw.animacja@gmail.com">
+                        <img width="24" height="24" src="./assets/mail-icon.svg" alt="mail icon">mw.animacja@gmail.com</a>
+                </div>
+
             <p class="text-gray-400 text-2xl font-medium mb-6">or find me on</p>
-            <ul class="flex gap-4">
+            <ul class="flex gap-4 mb-16 md:mb-32">
                 <li class="w-14 h-14 rounded-full flex items-center justify-center bg-gradient-to-br from-white/10 to-white/5 gap-1.5 shadow-innerLight">
                     <a href="#"><img width="24" height="24" class="w-6 h-6" src="./assets/github.svg" alt="github icon"></a>
                 </li>

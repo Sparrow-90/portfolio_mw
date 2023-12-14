@@ -36,12 +36,12 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
         <div class="flex flex-col flex-wrap gap-4 items-start md:flex-row">
             <div class="relative group">
             <div class="absolute -inset-0.5 bg-accent rounded-lg blur-md opacity-0 group-hover:opacity-50 duration-500"></div>
-            <a class="relative text-accent  hover:text-accentHover transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${homepage}" target="_blank" rel="noreferrer nofollow">
+            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${homepage}" target="_blank" rel="noreferrer nofollow">
                 <img class="w-6 h-6" src="${demoIcon}" alt=""> View demo</a>
             </div>
             <div class="relative group">
             <div class="absolute -inset-0.5 bg-accent rounded-lg blur-md opacity-0 group-hover:opacity-50 duration-500"></div>
-            <a class="relative text-accent  hover:text-accentHover transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${html_url}" target="_blank" rel="noreferrer nofollow">
+            <a class="relative text-accent  hover:text-white transition-all duration-300 bg-bg flex gap-3 font-bold py-4 px-3 items-center rounded-lg md:rounded-xl md:text-xl border-lightGray hover:border-accent border-2" href="${html_url}" target="_blank" rel="noreferrer nofollow">
                 <img class="w-6 h-6" src="${githubIcon}" alt="">Source code</a>
             </div>
         </div>
