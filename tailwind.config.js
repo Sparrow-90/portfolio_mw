@@ -32,7 +32,8 @@ module.exports = {
       },
       borderRadius: {
         'myRound': '0.625rem',
-        'myRound-xl': '1.25rem'
+        'myRound-xl': '1.25rem',
+        'fancyRound': '25% 75% 70% 30% / 30% 36% 64% 70% '
       },
       boxShadow: {
         'innerLight': 'inset 0 2px 0 0 rgba(255,255,255,0.15)',
