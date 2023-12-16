@@ -49,5 +49,9 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
         </article>`;
         if (homepage) projectsContainer.insertAdjacentHTML('afterbegin', element);
     }
-})
+});
+
+const cors = require("cors");
+
+app.use(cors());
 
