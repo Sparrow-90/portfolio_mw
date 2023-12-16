@@ -51,7 +51,5 @@ fetch(`https://api.github.com/users/${username}/repos?direction=${direction}`)
     }
 });
 
-const cors = require("cors");
 
-app.use(cors());
 
