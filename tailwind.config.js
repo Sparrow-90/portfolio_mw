@@ -3,6 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      listStyleImage:{
+        checkmark: 'url("./assets/check.svg")',
+      },
+    
       keyframes:{
         gradient:{
           '0%': {backgroundPosition: '0% 50%'},
